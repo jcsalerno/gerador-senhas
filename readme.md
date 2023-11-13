@@ -30,4 +30,4 @@ O gerador permite personalizar a senha com opções como comprimento, inclusão 
 
 ## GIF do projeto
 
-![gif do projeto](image-1.png)
+![gif do projeto](gif-do-projet.gif)
