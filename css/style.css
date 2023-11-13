@@ -50,3 +50,85 @@ input:focus {
   color: #fff;
   word-spacing: 50rem;
 }
+
+#register-form {
+  background-color: #fdfdfd;
+  padding: 2rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#register-form h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+}
+
+#register-form p {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #aaa;
+  font-size: 0.8rem;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+
+.form-control input {
+  border: none;
+  border-bottom: 1px solid #aaa;
+  padding: 0.6rem 0;
+}
+
+#generate-password {
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#generate-password:hover {
+  color: #0997ff;
+}
+
+#register-form #generated-password {
+  border: 1px solid #0099ff;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1rem;
+  display: none;
+}
+
+#register-form #generated-password p {
+  color: #81d340;
+  margin-bottom: 0.5rem;
+}
+
+#register-form input[type="submit"] {
+  background-color: #81d340;
+  color: #fff;
+  opacity: 0.8;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 1.4rem;
+  max-width: 150px;
+  cursor: pointer;
+  align-self: flex-end;
+  transition: 0.4s;
+}
+
+#register-form input[type="submit"]:hover {
+  opacity: 1;
+}
