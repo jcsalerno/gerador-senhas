@@ -26,7 +26,7 @@ O gerador permite personalizar a senha com opções como comprimento, inclusão 
 
 ## Foto do projeto final
 
-(![foto do projeto final](image.png))
+![foto do projeto final](image.png)
 
 ## GIF do projeto
 
